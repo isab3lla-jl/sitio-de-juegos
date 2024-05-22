@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasión Espacial</title>
+    <link rel="icon" type="image/x-icon" href="../../resources/spaceship-color.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <div class="box" id="box"></div>
+        <nav>
+            <a href="#" class="logo">Invasión Espacial</a>
+            <div class="links">
+                <a href="../../indexMain.html" id="regresar">Regresar</a>
+                <a href="index.html" id="reinicio">Reiniciar</a>
+            </div>
+            <button onclick="location.href='http://www.example.com'" type="button" class="cv">
+                Curriculum</button>
+        </nav>
+
+        <div class="game">
+            <div class="container">
+                <div class="display">
+                    <h3>Puntaje: <span class="score">0</div></h3>
+                    <button class="button" id="start-button">Start Game</button>
+                </div>
+                <div class="grid"></div>
+            </div>
+        </div>
+        <div class="popup" id="lose">
+            <img src="../../resources/embarrassed.png" alt="embarrassed">
+            <h2>Perdiste!</h2>
+            <p>Quieres volver a intentar?</p>
+            <button onclick="location.href='index.html'" type="button" class="button">(click aquí para reiniciar)</button>
+        </div>
+        <div class="popup" id="win">
+            <img src="../../resources/happy.png" alt="happy">
+            <h2>Ganaste!</h2>
+            <p>Venciste el juego! Quieres volver a intentar?</p>
+            <button onclick="location.href='index.html'" type="button" class="button">(click aquí para reiniciar)</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="creditos">
+                <h4>Creditos:</h4>
+                <a href="https://www.flaticon.com/free-icons/space-invaders" title="space invaders icons" target="_blank">Space invaders icons created by Freepik - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/emoji" title="emoji icons">Emoji icons created by Freepik - Flaticon</a>
+            </div>
+            <h2>Diversión Ilimitada</h2>
+            <div class="info">
+                <div class="license">
+                    <h3>© Isabella Juárez Luna 2024</h3>
+                    <p>Licensed under the <a href="../../../LICENSE.txt" target="_blank">MIT LICENSE</a></p>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/isab3lla.j_l/" target="_blank"><i class='bx bxl-instagram bx-tada-hover'></i></a>
+                    <div class="base">
+                        <div class="face"></div>
+                    </div>
+                    <a href="https://github.com/isab3lla-jl" target="_blank"><i class='bx bxl-github bx-tada-hover'></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+    <script src="script-icons.js" charset="utf-8"></script>
+</body>
+</html>
